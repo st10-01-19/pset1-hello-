@@ -1,4 +1,5 @@
 int main(void)
 {
-printf("hello")
+  string answer = get_string("What is your name?\n");
+  printf("hello, %s\n", answer);
 }
